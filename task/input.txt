@@ -1,0 +1,4 @@
+if (isdigit(buffer[i]))
+{
+    buffer[i] = ((buffer[i] - '0' + key) % 10) + '0';
+}
