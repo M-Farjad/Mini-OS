@@ -2,33 +2,21 @@
 
 using namespace std;
 
-char *decrypt(char *message, int length, int key)
+char *encrypt(char *message, int length, int key)
 {
     for (int i = 0; i < length; i++)
-    {
-        char c = message[i];
-        if (isalpha(c))
-        {
-            c = toupper(c);
-            // c - 65 numerical value of the letter + key (changes)
-            // result % 26 +65 back ASCII
-            c = ((c - 65 + key) % 26) + 65;
-        }
-        if (isdigit(c))
-            c = ((c - '0' + key) % 10) + '0';
-        message[i] = c;
-    }
+        message[i] = ((message[i] + key) % 256);
     return message;
 }
 int main()
 {
-    char message[] = "810 DYPHYB";
+    char message[] = "123 Farjad";
     int length = sizeof(message) - 1; // -1 to exclude the null terminator
     int key = 5;
 
     cout << "Original message: " << message << endl;
 
-    decrypt(message, length, key);
+    encrypt(message, length, key);
 
     cout << "Encrypted message: " << message << endl;
 
