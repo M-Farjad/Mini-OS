@@ -1,0 +1,8 @@
+>>>Names
+>>>Starting logo
+The RAM hard drive and the number of cores will be given by the user while starting the OS 
+>>>Total tasks
+>>>Kernal and user mode
+>>>ready queue will schedule all the tasks in the RAM 
+>>>if any interrupt for input in task or some other external interrupt occurs the task should move into blocked section. 
+>>>Screen Shots of all the tasks

@@ -1,0 +1,4 @@
+/home/se-41/6 Taskss/create new file/build-Create_New_File-Desktop_Qt_5_12_12_GCC_64bit-Debug/CMakeFiles/Create_New_File.dir
+/home/se-41/6 Taskss/create new file/build-Create_New_File-Desktop_Qt_5_12_12_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/se-41/6 Taskss/create new file/build-Create_New_File-Desktop_Qt_5_12_12_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/se-41/6 Taskss/create new file/build-Create_New_File-Desktop_Qt_5_12_12_GCC_64bit-Debug/CMakeFiles/Create_New_File_autogen.dir

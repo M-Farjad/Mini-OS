@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Create_New_File",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Create_New_File::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Create_New_File-Debug-32eb6a9169a547e3d627.json",
+					"name" : "Create_New_File",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Create_New_File_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Create_New_File_autogen-Debug-582491854a82517fddfb.json",
+					"name" : "Create_New_File_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/se-41/6 Taskss/create new file/build-Create_New_File-Desktop_Qt_5_12_12_GCC_64bit-Debug",
+		"source" : "/home/se-41/6 Taskss/create new file/Create_New_File"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
